@@ -1,7 +1,7 @@
 const API_KEY = "aa50dbf3381ae006f0be8941e5a4c5af";
 
 const requests = {
-    fetchTrending : `/trending/all/week?api_key=${API_KEY}&language=en-CA`,
+    fetchTrending : `https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}&language=en-CA`,
     
     fetchTopRated : `/movie/top_rated?api_key=${API_KEY}&language=en-CA`,
 

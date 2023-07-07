@@ -2,7 +2,7 @@ import React from 'react';
 
 import './HomeScreen.css'
 
-import Nav from './Nav';
+import Navbar from './Navbar';
 import Banner from './Banner';
 import Row from './Row';
 import requests from './Request';
@@ -12,8 +12,7 @@ function HomeScreen() {
   
   return (
     <div className='homeScreen'>
-        <Nav/>
-        
+        <Navbar/>
         <Banner />
 
         <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
