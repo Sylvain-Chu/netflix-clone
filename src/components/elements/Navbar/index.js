@@ -8,10 +8,9 @@ import {
   NavLink,
   HoveredNavLinkText,
   SecondaryNav,
-  BlackNav,
   Logo,
   Avatar
-} from "./style";
+} from "./Style";
 
 function Navbar() {
   const [show, handleShow] = useState(false);

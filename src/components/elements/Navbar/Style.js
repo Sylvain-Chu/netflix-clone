@@ -6,7 +6,7 @@ export const Header = styled.header`
   transition: all 0.5s;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
 
     &.nav_black {
