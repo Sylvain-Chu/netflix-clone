@@ -1,7 +1,7 @@
 import React from "react";
 import { GlobalStyle } from "./theme/global-style";
 import { useLocation, Routes, Route, Navigate } from "react-router-dom";
-import HomeScreen from "../../components/elements/HomeScreen";
+import HomeScreen from "../../pages/HomeScreen/HomeScreen";
 
 const App = () => {
   const location = useLocation();

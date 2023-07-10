@@ -10,7 +10,10 @@ import {
   BannerFadeBottom,
   BannerButtons,
   BannerButton,
-  BannerButtonSpan, BannerEmbedded, ActionButton, MaturityRating, MaturityNumber
+  BannerButtonSpan,
+  BannerEmbedded,
+  MaturityRating,
+  MaturityNumber
 } from "./Style";
 
 function Banner() {
