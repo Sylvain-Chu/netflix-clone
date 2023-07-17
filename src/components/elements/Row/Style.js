@@ -17,11 +17,13 @@ export const Title = styled.h2`
 `;
 
 export const Slider = styled.div`
-  margin: 0;
-  padding: 0 4%;
-  position: relative;
-  touch-action: pan-y;
-  z-index: 2;
+  --items-per-screen: 6;
+  --slider-index: 0;
+  display: flex;
+  flex-grow: 1;
+  margin: 0 var(--img-gap);
+  transform: translateX(calc(var(--slider-index) * -100%));
+  transition: transform 250ms ease-in-out;
 `;
 
 export const RowPosters = styled.div`
