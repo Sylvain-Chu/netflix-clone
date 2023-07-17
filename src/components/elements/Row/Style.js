@@ -38,20 +38,6 @@ export const RowPosters = styled.div`
   //}
 `;
 
-export const RowPoster = styled.img`
-  width: 20%;
-  box-sizing: border-box;
-  display: inline-block;
-  padding: 0 .2vw;
-  position: relative;
-  vertical-align: top;
-  white-space: normal;
-  z-index: 1;
-  //max-height: 20vh;
-  //object-fit: contain;
-  //margin-right: 10px;
-`;
-
 export const TitleLink = styled.a`
   color: #e5e5e5;
   display: inline-block;

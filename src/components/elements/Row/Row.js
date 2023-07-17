@@ -1,6 +1,7 @@
 import axios from '../axios';
 import React, { useEffect, useState, useCallback } from 'react';
-import { RowContainer, Title, RowPosters, RowPoster, Slider, TitleLink, ExploreFade, SeeAllLink } from './Style';
+import { RowContainer, Title, RowPosters, Slider, TitleLink } from './Style';
+import RowPoster from "../RowPoster";
 
 function Row({ title, fetchUrl }) {
     const [movies, setMovies] = useState();
@@ -33,8 +34,8 @@ function Row({ title, fetchUrl }) {
               {movies?.map((movie) => (
                 <RowPoster
                   key={movie.id}
-                  src={`${base_url}${movie.backdrop_path}`}
-                  alt={movie.name}
+                  movie={movie}
+                  mouseOver={true}
                 />
               ))}
             </RowPosters>
